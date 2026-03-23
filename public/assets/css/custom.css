@@ -1,0 +1,17 @@
+
+.bg-primary {    
+    background-color: rgb(255 134 47) !important;
+}
+span.head_social_icon {
+    padding-top: 3px !important;
+}
+.myAdSlides {
+    cursor: pointer !important;
+}
+.remediovet-logo {
+    border: 4px solid #FF852F !important;
+    border-radius: 28px !important;
+}
+.fa-heart:hover {
+    transform: scale(1.3);
+}

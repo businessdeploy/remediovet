@@ -1,0 +1,10 @@
+/node_modules
+/vendor
+/.env
+/app.zip
+/backup-14-6-24.zip
+/backup17-5-24.zip
+/evgigsof_remedio.sql
+/.git
+/tests
+/storage/*.key
