@@ -48,6 +48,7 @@ Route::get('/import-database-now', function() {
     }
     $sql = file_get_contents($sql_path);
     try {
+        \Illuminate\Support\Facades\Artisan::call('db:wipe', ['--force' => true]);
         DB::unprepared($sql);
         return "Database imported successfully! You can now visit the homepage.";
     } catch (\Exception $e) {
