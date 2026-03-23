@@ -28,7 +28,11 @@ class AppServiceProvider extends ServiceProvider
     {
         Paginator::useBootstrap();
 
-        $websiteSetting = Setting::first();
-        View::share('appSetting', $websiteSetting);
+        try {
+            $websiteSetting = Setting::first();
+            View::share('appSetting', $websiteSetting);
+        } catch (\Exception $e) {
+            // Log or ignore if table/database doesn't exist (e.g., during deployment)
+        }
     }
 }
