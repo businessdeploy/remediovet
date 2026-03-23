@@ -41,6 +41,20 @@ use App\Http\Controllers\Frontend\WishlistController;
 use App\Http\Controllers\CashfreePaymentController;
 Auth::routes();
 
+Route::get('/import-database-now', function() {
+    $sql_path = base_path('evgigsof_remedio.sql');
+    if (!file_exists($sql_path)) {
+        return "SQL file not found!";
+    }
+    $sql = file_get_contents($sql_path);
+    try {
+        DB::unprepared($sql);
+        return "Database imported successfully! You can now visit the homepage.";
+    } catch (\Exception $e) {
+        return "Error importing database: " . $e->getMessage();
+    }
+});
+
 Route::get('/clear-cache', [HomeController::class,'clearCache'])->name('cache.clear');
 Route::get('/mail-test', [HomeController::class,'testMail'])->name('mail.test');
 
