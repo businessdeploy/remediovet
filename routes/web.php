@@ -56,6 +56,12 @@ Route::get('/import-database-now', function() {
     }
 });
 
+Route::get('/laravel-error-log', function() {
+    $logFile = storage_path('logs/laravel.log');
+    if (!file_exists($logFile)) return "No log file found.";
+    return "<pre>" . shell_exec("tail -n 200 " . escapeshellarg($logFile)) . "</pre>";
+});
+
 Route::get('/clear-cache', [HomeController::class,'clearCache'])->name('cache.clear');
 Route::get('/mail-test', [HomeController::class,'testMail'])->name('mail.test');
 
