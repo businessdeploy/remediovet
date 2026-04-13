@@ -219,8 +219,11 @@ class CheckoutController extends Component
             ]);            
             return redirect()->to(json_decode($resp)->payment_link);
           }else{
-            echo "fail";die;            
-          }            
+            echo "<h3>Cashfree Payment Error</h3>";
+            echo "<p>Cashfree API returned the following error instead of a payment link:</p>";
+            echo "<pre>"; print_r(json_decode($resp, true)); echo "</pre>";
+            die;
+          }
          
     }
     
