@@ -16,7 +16,7 @@ return [
     'google'=> [
         'client_id' => env('GOOGLE_CLIENT_ID'),
         'client_secret'=> env('GOOGLE_CLIENT_SECRET'),
-        'redirect'=>'https://remedio.evgigsoft.com/auth/google/callback',
+        'redirect'=>'https://remediovet.com/auth/google/callback',
     ],
 
     'mailgun' => [

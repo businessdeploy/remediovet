@@ -44,7 +44,7 @@ class CashfreePaymentController extends Controller
                     "customer_phone" => $validated['phone'],
                ],
                "order_meta" => [
-                    "return_url" => 'https://remedio.evgigsoft.com/cashfree/payments/success/?order_id={order_id}&order_token={order_token}'
+                    "return_url" => 'https://remediovet.com/cashfree/payments/success/?order_id={order_id}&order_token={order_token}'
                ]
           ]);
 

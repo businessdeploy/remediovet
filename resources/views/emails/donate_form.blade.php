@@ -102,7 +102,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <img src="https://remedio.evgigsoft.com/assets/images/logo.png" alt="logo">
+            <img src="https://remediovet.com/assets/images/logo.png" alt="logo">
             <h2>Donation Form Submission</h2>
         </div>
         <div class="content">

@@ -82,7 +82,7 @@ function applyFilters() {
                     productListingHTML += '<div class="product_box listing-p">';
                     productListingHTML += '<div class="img_boxes pointer" onclick="redirectToProduct(\'' + product.url + '\')">';
                     productListingHTML += '<span class="bg_circle"></span>';
-                    productListingHTML += '<img src="https://remedio.evgigsoft.com/' + product.featured_image + '" class="mx-auto d-block" alt="Product Image">';
+                    productListingHTML += '<img src="https://remediovet.com/' + product.featured_image + '" class="mx-auto d-block" alt="Product Image">';
                     productListingHTML += '</div>';
                     productListingHTML += '<div class="product_details justify-content-center my-3">';
                     productListingHTML += '<h5 class="fw-bold d-flex justify-content-center" onclick="redirectToProduct(\'' + product.url + '\')">' + product.name + '</h5>';

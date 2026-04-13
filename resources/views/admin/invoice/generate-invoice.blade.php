@@ -104,7 +104,7 @@
 
 <body>
     <div class="text-center">
-        <img class="logo_img" src="https://remedio.evgigsoft.com/assets/images/logo.png" alt="logo" width="150px" height="auto" />
+        <img class="logo_img" src="https://remediovet.com/assets/images/logo.png" alt="logo" width="150px" height="auto" />
     </div>
 
     <table class="order-details">

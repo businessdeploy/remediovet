@@ -164,7 +164,7 @@
 </div>
                 <div class="four">
                     <div class="form-header">
-                        <a href="https://remedio.evgigsoft.com/change-password"
+                        <a href="https://remediovet.com/change-password"
                             class="btn rounded-pill bg-orange float-end text-white">Change Password</a>
                         <!-- <span><i class="fa-solid fa-arrow-left back_button" onclick="redirectToUrl('{{ route('my.account') }}')"></i></span>-->
                         <h1 class="fw-bolder text-center">Account Details</h1>

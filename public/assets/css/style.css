@@ -48,7 +48,7 @@ display:inline-block;
 .signup_section .signup-col .signup-content h2::after {
 content: "";
 width: 100px;
-background: url("https://remedio.evgigsoft.com/assets/images/splash.png") no-repeat;
+background: url("https://remediovet.com/assets/images/splash.png") no-repeat;
 height: 100px;
 position: absolute;
 right: -80px;
@@ -1577,7 +1577,7 @@ background-color: #ff852f !important;
 h1.directory_subtypes.splash-logo:after {
 content: '';
 width: 100px;
-background: url(https://remedio.evgigsoft.com/assets/images/splash.png);
+background: url(https://remediovet.com/assets/images/splash.png);
 height: 100px;
 background-repeat: no-repeat;
 position: absolute;
@@ -1587,7 +1587,7 @@ z-index: -1;
 h1.about-splash-logo:after {
 content: '';
 width: 100px;
-background: url(https://remedio.evgigsoft.com/assets/images/splash.png);
+background: url(https://remediovet.com/assets/images/splash.png);
 height: 100px;
 background-repeat: no-repeat;
 position: absolute;
@@ -1597,7 +1597,7 @@ z-index: -1;
 h1.contactUs-splash-logo:after {
 content: '';
 width: 100px;
-background: url(https://remedio.evgigsoft.com/assets/images/splash.png);
+background: url(https://remediovet.com/assets/images/splash.png);
 height: 100px;
 background-repeat: no-repeat;
 position: absolute;
@@ -1608,7 +1608,7 @@ top: -34px;
 h1.faq-splash-logo:after {
 content: '';
 width: 100px;
-background: url(https://remedio.evgigsoft.com/assets/images/splash.png);
+background: url(https://remediovet.com/assets/images/splash.png);
 height: 100px;
 background-repeat: no-repeat;
 position: absolute;
@@ -2760,7 +2760,7 @@ height:100%;
 .inner-banner h1:after, .contactinner-banner h1:after {
 content: '';
 width: 100px;
-background: url(https://remedio.evgigsoft.com/assets/images/splash.png);
+background: url(https://remediovet.com/assets/images/splash.png);
 background-repeat: repeat;
 height: 100px;
 background-repeat: no-repeat;

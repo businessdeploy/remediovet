@@ -117,7 +117,7 @@
 <div class="container">
     <div class="header">
         <div class="logo">
-            <img src="https://remedio.evgigsoft.com/assets/images/logo.png" alt="logo">
+            <img src="https://remediovet.com/assets/images/logo.png" alt="logo">
         </div>
         <h2>Thank you for your order! </h2>
         <p>Your order items and details are provided below.</p>

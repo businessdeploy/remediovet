@@ -35,7 +35,7 @@
 	<div class="col-sm-12 col-md-12 col-lg-8">
 		<div class="title-donate">
 		 <h1 class="fw-bold category_heading custom_donatetxt">Bezubaan Animal Welfare Foundation </h1>
-		  <img src="https://remedio.evgigsoft.com/assets/images/heading_border.png" alt="img">
+		  <img src="https://remediovet.com/assets/images/heading_border.png" alt="img">
 		</div>
 	
 		<p> Welcome to the world of Bezubaan Animal Welfare Foundation (B.A.W.F) ! Based in Chandigarh, our foundation is dedicated to improving the lives of 
@@ -82,7 +82,7 @@
 			<div class="pet-relocation-GetAQuote-panel">
 			<div class="pet-location-title mb-3">
 			<h1 class="fw-bold text-center quotes_heading">Bezubaan Animal Welfare Foundation </h1>
-			<img src="https://remedio.evgigsoft.com/assets/images/white-underline.png" class="mx-auto d-block" alt="img">
+			<img src="https://remediovet.com/assets/images/white-underline.png" class="mx-auto d-block" alt="img">
 			</div>
 			<form id="donateFormSubmit" method="POST">
 			@csrf
@@ -123,7 +123,7 @@
 			</div>
 			<div class="message" id="quote_1_success_msg" style="color: green;"></div>
 			<span class="position-relative">
-			<img src="https://remedio.evgigsoft.com/assets/images/bannerside.png" class="custom_side_bannerimg position-absolute top-50 start-100" alt="img">
+			<img src="https://remediovet.com/assets/images/bannerside.png" class="custom_side_bannerimg position-absolute top-50 start-100" alt="img">
 			</span>
 			</div>
 			</form>

@@ -324,7 +324,7 @@ $(document).ready(function(){
 
     function updateFormAction(paymentMethod) {
         if (paymentMethod == 'cashFree') {
-            $('#finalCheckout').attr('action', "https://remedio.evgigsoft.com/cash-free-checkout");
+            $('#finalCheckout').attr('action', "https://remediovet.com/cash-free-checkout");
         } else {
             $('#finalCheckout').removeAttr('action');
             

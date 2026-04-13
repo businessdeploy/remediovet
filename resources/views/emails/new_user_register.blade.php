@@ -87,7 +87,7 @@
     <div class="container">
 
         <div class="logo">
-            <img src="https://remedio.evgigsoft.com/assets/images/logo.png" alt="logo" style="max-width: 200px;">
+            <img src="https://remediovet.com/assets/images/logo.png" alt="logo" style="max-width: 200px;">
         </div>
 
         <div class="header">
